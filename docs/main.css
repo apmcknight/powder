@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15vh;
+}
+
+.powderReport > h1{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+.powderReport{
+    padding-top: 25vh;
+}
+
+
