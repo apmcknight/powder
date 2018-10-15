@@ -2,18 +2,46 @@
 
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 15vh;
-}
-
-.powderReport > h1{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: .05em;
+
+    margin-top: 15%;
+    margin-bottom: 20%;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
 
-.powderReport{
-    padding-top: 25vh;
+.powderReport > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+    letter-spacing: 0em;
+    font-size: 5em;
+    color: #0515ff;
 }
 
+.snowDetails{
+    margin-top: 10vh;
+}
 
+.snowfall{
+    margin-right: 15%;
+    float: left;
+}
+
+.tempture{
+    display: block;
+    float: left;
+}
+
+@media screen and (max-width: 375px){
+    body{
+        margin-top: 50%;
+    }
+
+    .powderReport > h2{
+        font-size: 3em;
+    }
+}
