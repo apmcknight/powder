@@ -4,7 +4,7 @@ html{margin: 0 auto; padding: 0 auto;}
 
 body{
     margin-left: 10%;
-    margin-top: 20%;
+    margin-top: 17%;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: .05em;
@@ -15,8 +15,14 @@ body{
     top: -100px;
     left: 750px;
     z-index: -10;
-    animation-name: fade;
+    animation-name: moveFade;
     animation-timing-function: cubic-bezier(0, 0.97, 1, 1);
+    animation-duration: 3s;
+}
+
+.powderReport{
+    animation-name: fade;
+    animation-timing-function: ease;
     animation-duration: 3s;
 }
 
@@ -37,22 +43,52 @@ body{
 }
 
 .snowfall{
+    position: relative;
+    animation-name: fadeIn;
+    animation-timing-function: cubic-bezier(0, 0.48, 0, 1.04);
+    animation-duration: 2s;
+    /* animation-delay: .3s; */
+    
+
     margin-right: 5%;
     float: left;
 }
 
 .tempture{
+    position: relative;
+    animation-name: fadeIn;
+    animation-timing-function: cubic-bezier(0, 0.48, 0, 1.04);
+    animation-duration: 3s;
+    /* animation-delay: .5s; */
+
     display: block;
     float: left;
 }
 
-@keyframes fade {
+@keyframes moveFade {
     0%{
         opacity: 0;
         left: 1200px;
     }
     100%{opacity: 100;}
 }
+
+@keyframes fade {
+    0%{opacity: 0;}
+    100%{opacity: 100;}
+}
+
+@keyframes fadeIn {
+    0%{
+        top: 150px;
+        opacity: 0;
+    }
+    100%{
+        top: 0px;
+        opacity: 100;
+    }
+}
+
 
 @media screen and (max-width: 375px){
     body{
