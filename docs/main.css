@@ -10,8 +10,20 @@ body{
     letter-spacing: .05em;
 }
 
+.details{
+    margin-bottom: 700px;
+    width: auto;
+    height: 20px;
+}
+
+.sectionTwo{
+    width: auto;
+    height: 100%;
+    margin-bottom: 700px;
+}
+
 .bgImage{
-    position: fixed;
+    position: absolute;
     top: -100px;
     left: 750px;
     z-index: -10;
@@ -62,6 +74,18 @@ body{
     /* animation-delay: .5s; */
 
     display: block;
+    float: left;
+}
+
+.term{
+    position: relative;
+    animation-name: fadeIn;
+    animation-timing-function: cubic-bezier(0, 0.48, 0, 1.04);
+    animation-duration: 2s;
+    /* animation-delay: .3s; */
+    
+    margin-top: -5%;
+    margin-left: 12.5%;
     float: left;
 }
 
