@@ -89,6 +89,26 @@ body{
     float: left;
 }
 
+.termWrapperOne{
+    padding-bottom: 50px;
+}
+
+.termWrapperTwo .powderReport h2{
+    color: rgb(255, 0, 0);
+}
+
+.termWrapperTwo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.termWrapperThree{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
 @keyframes moveFade {
     0%{
         opacity: 0;
