@@ -9,6 +9,45 @@ body{
     text-transform: uppercase;
     letter-spacing: .05em;
 }
+/* ---- ART CSS ---- */
+
+.sunArt{
+    position: absolute;
+    top: -10px;
+    z-index: -9;
+}
+
+.partOne{
+    position: relative;
+    left: -300px;
+    top: -450px;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+    background: #0515ff;
+}
+
+.partTwo{
+    position: relative;
+    right: -200px;
+    top: -1200px;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+    background: #0515ff;
+}
+
+.partThree{
+    position: relative;
+    right: -800px;
+    top: -1800px;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+    background: #0515ff;
+}
+
+/* ---- END OF ART CSS ---- */
 
 .details{
     margin-bottom: 700px;
@@ -33,6 +72,7 @@ body{
 }
 
 .powderReport{
+    padding-top: 50px;
     animation-name: fade;
     animation-timing-function: ease;
     animation-duration: 3s;
