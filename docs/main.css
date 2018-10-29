@@ -381,22 +381,27 @@ body{
         max-width: 25%;
         position: relative;
         float: left;
-        top: 20px;
-        left: -20px;
+        top: 10px;
+        left: -10px;
         fill: #0515ff;
     }
+
+    .powderReport{
+        margin-top: 250px;
+        margin-right: 30px;
+    }
+
 
     .powderReport > h2{
         font-family: Arial, Helvetica, sans-serif;
         text-transform: none;
         letter-spacing: 0em;
-        font-size: 3em;
         color: #0515ff;
     }
 
     .bgImage{
         position: fixed;
-        top: -20px;
+        top: 200px;
         left: -100px;
         z-index: -10;
     }
@@ -404,4 +409,15 @@ body{
     .powderReport > h2{
         font-size: 3em;
     }
+
+    .sectionTwo > h1{
+        padding-top: 30px;
+    }
+
+    .termWrapperOne{margin-top: -250px;}
+    .termWrapperTwo{margin-top: -250px;}
+    .termWrapperThree{margin-top: -250px;}
+
+
+
 }
