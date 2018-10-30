@@ -13,6 +13,8 @@ body{
 
 .artContainerOne{
     position: absolute;
+    width: 100px;
+
     top: -10px;
     z-index: -9;
 }
@@ -163,7 +165,7 @@ body{
     /* animation-delay: .3s; */
     
     margin-top: -5%;
-    margin-left: 12.5%;
+    margin-left: 12%;
     float: left;
 }
 
@@ -175,17 +177,49 @@ body{
     color: rgb(255, 0, 0);
 }
 
+.termWrapperThree .powderReport h2{
+    color: rgb(255, 193, 60)
+}
+
 .termWrapperTwo{
     padding-top: 50px;
     padding-bottom: 50px;
+    color: 
 }
 
 .termWrapperThree{
     padding-top: 50px;
     padding-bottom: 50px;
+    color: rgb(255, 193, 60);
 }
 
 .sectionTwo{background: #fff;}
+
+footer{
+    width: 5px:
+    height: 0;
+    padding: 30px;
+    margin-left: -12%;
+}
+
+footer > p{
+    text-align: center;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    transition: all ease .3s;
+
+}
+
+a:hover{
+    color: #0515ff;
+    transition: all ease .3s;
+}
+
 
 
 @keyframes moveFade {
@@ -255,7 +289,7 @@ body{
 @media screen and (max-width: 768px){
     body{
         margin-left: 10%;
-        margin-top: 20%;
+        margin-top: 50%;
         font-family: 'Oswald', sans-serif;
         text-transform: uppercase;
         letter-spacing: .05em;
@@ -269,6 +303,8 @@ body{
         left: -20px;
         fill: #0515ff;
     }
+
+    .powderReport{margin-top: 200px;}
 
     .powderReport > h2{
         font-family: Arial, Helvetica, sans-serif;
@@ -308,6 +344,9 @@ body{
         left: -20px;
         fill: #0515ff;
     }
+
+    .powderReport{margin-top: 300px;}
+
 
     .powderReport > h2{
         font-family: Arial, Helvetica, sans-serif;
@@ -415,7 +454,11 @@ body{
         padding-top: 30px;
     }
 
-    .termWrapperOne{margin-top: -250px;}
+    .termWrapperOne{
+        margin-top: -250px;
+        margin-left: 30px;
+    
+    }
     .termWrapperTwo{margin-top: -250px;}
     .termWrapperThree{margin-top: -250px;}
 
